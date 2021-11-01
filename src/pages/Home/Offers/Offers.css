@@ -1,0 +1,13 @@
+.offer-title h6{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff7f47
+}
+.offer-title h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: capitalize;
+}

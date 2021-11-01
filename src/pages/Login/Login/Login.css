@@ -1,0 +1,29 @@
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:50px 0;
+}
+.gogle-login {
+  background-color: aliceblue;
+  width: 22%;
+  height: 386px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.signInBtn{
+    padding: 8px 16px;
+ background-color: #ff7f47;
+    color: white;
+    border-color: #ff7f47;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon{
+    font-size: 41px;
+    margin: 20px 0;
+   color: #ff7f47;
+}

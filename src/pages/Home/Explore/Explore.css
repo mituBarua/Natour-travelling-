@@ -1,0 +1,91 @@
+.peulis-awesome-tour-area {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+  z-index: 1;
+}
+.peulis-awesome-tour-area:before {
+  background-image: url(../../../images//awesome_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 45%;
+}
+.peulis-awesome-tour-area:after {
+    /* background: url(../../../images/awesome_bg_2.png) no-repeat scroll 0 0; */
+    bottom: 0;
+    content: "";
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 45%;
+    z-index: -1;
+}
+.awesome-tour-box {
+  float: right;
+  width: 55%;
+  color: #fff;
+  position: relative;
+  padding-left: 85px;
+  padding-right: 0;
+}
+.video-btn {
+  position: absolute;
+  left: -60px;
+  top: 30%;
+  text-align: center;
+}
+.awesome-tour-box h2 {
+  color: #111;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  letter-spacing: 0px;
+}
+.awesome-tour-box p {
+  color: #3c3735;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  letter-spacing: 0px;
+  line-height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+.awesome-tour-box a.peulis-btn {
+  margin-top: 25px;
+}
+.peulis-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ff6d34 none repeat scroll 0 0;
+  color: #fff;
+  border-radius: 25px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-decoration: none;
+}
+.video-btn a {
+  color: #ffffff;
+  display: inline-block;
+  width: 100px;
+
+  height: 100px;
+  line-height: 84px;
+  background: #1ec8e7;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  text-align: center;
+  padding-left: 2px;
+
+  border: 10px solid #ffffff;
+}
+.play-icon {
+  font-size: 50px;
+}

@@ -1,0 +1,64 @@
+.achievement-area {
+  background: linear-gradient(
+      rgba(245, 245, 245, 0.2) 100%,
+      rgba(245, 245, 245, 0.2) 100%
+    ),
+    url(../../../images/achiv-shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p-80 {
+  padding: 80px 0;
+}
+.mt-120 {
+  margin-top: 90px;
+}
+.section-head {
+  text-align: center;
+  max-width: 516px;
+  margin: 0 auto;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.section-head h5 {
+  margin-bottom: 15px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ff7f47;
+}
+.section-head h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: capitalize;
+}
+.achievement-card {
+  padding: 20px;
+  text-align: center;
+  background: #304f47;
+  color: #fff;
+  -webkit-box-shadow: 0 0 64px rgb(17 17 17 / 10%);
+  box-shadow: 0 0 64px rgb(17 17 17 / 10%);
+  border-radius: 5px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.achievement-card .achievement-icon {
+  margin-bottom: 7px;
+  font-size: 60px;
+}
+.achievement-card .achievement-icon i {
+  color: #fff;
+}
+.achievement-card h5 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+}

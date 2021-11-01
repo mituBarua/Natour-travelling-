@@ -1,0 +1,47 @@
+.contact{
+    margin-top: 70px;
+}
+.contact img{
+  width: 100%;
+} 
+.contact-form .form-label{
+    font-weight: bold;
+    color: #ff7f47;
+}
+.form-ct{
+    text-align: left;
+}
+ul.office-clock {
+    margin-top: 40px;
+}
+ul.office-clock li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+}
+.clock-info{
+ text-align: left;
+ }
+ul.office-clock li .clock-icon {
+    font-size: 45px;
+    margin-right: 20px;
+}
+ul.office-clock li .clock-info h5 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ff7f47;
+    line-height: 38px;
+}
+ul.office-clock li .clock-info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.para{
+    text-align: left;
+    margin: 15px 0;
+    color: #737679;
+}
+.text-left{
+    text-align: left;
+}

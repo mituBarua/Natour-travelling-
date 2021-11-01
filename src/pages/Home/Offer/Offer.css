@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.offer-card{
+    box-shadow: 0 0 30px rgb(17 17 17 / 8%);
+    border: none;
+    margin: 15px 0;
+}
+
+.price-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-duration h5{
+    font-size: 17px;
+    color:#304f47;
+}
+.price-duration span {
+    font-size: 20px!important;
+    font-weight: 700;
+}
+.details{
+    text-align: left;
+}
+.details h4{
+    color: #ff7f47;
+    font-weight: 700;
+    margin: 5px 0;
+    font-size: 25px;
+
+}

@@ -1,0 +1,199 @@
+.custom-carousel img {
+  height: 85vh;
+  /* opacity: 0.75; */
+}
+.custom-carousel .carousel-caption {
+  top: 100px;
+  text-align: left;
+  left: 12%;
+}
+.custom-carousel .carousel-caption h1 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.custom-carousel .carousel-caption p {
+  font-size: 30px;
+  color: #ff7f47;
+  font-weight: 700;
+  margin: 8px 0;
+}
+.carousel-indicators {
+  display: none;
+}
+.banner-btn {
+  background-color: #ff7f47;
+  color: white;
+  padding: 11px 35px;
+  border-radius: 25px;
+  border-color: #ff7f47;
+  font-weight: 600;
+  font-size: 18px;
+}
+.banner-btn:hover {
+  background-color: #f87035;
+  border-color: #ff7f47;
+}
+
+.find-form {
+  position: relative;
+  z-index: 10;
+  margin-top: -70px;
+}
+.find-form .find-form-wrapper {
+  background: rgba(48, 79, 71, 0.9);
+  padding: 38px;
+  max-width: 980px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 64px rgb(17 17 17 / 10%);
+  box-shadow: 0 0 64px rgb(17 17 17 / 10%);
+  border-radius: 20px;
+}
+.find-form .findfrom-wrapper input,
+.find-form .findfrom-wrapper input {
+  width: 100%;
+}
+.find-form .findfrom-wrapper input,
+.find-form .findfrom-wrapper input[type="date"] {
+  border: none;
+}
+.find-form .findfrom-wrapper input,
+.find-form .findfrom-wrapper select {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #262339;
+  height: 50 px;
+  width: 100%;
+}
+
+.find-form .findfrom-wrapper input,
+.find-form .findfrom-wrapper input {
+  width: 100%;
+}
+.find-form .findfrom-wrapper input option,
+.find-form .findfrom-wrapper select option {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #262339;
+}
+.find-form .findfrom-wrapper input,
+.find-form .findfrom-wrapper input[type="date"] {
+  border: none;
+}
+.find-form .findfrom-wrapper input,
+.find-form .findfrom-wrapper select {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #262339;
+  height: 50px;
+
+  width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="tel"] {
+  padding: 8px 15px;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+
+  height: 50px;
+}
+.calendar-input {
+  position: relative;
+}
+.calendar-input i {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 10px;
+
+  vertical-align: middle;
+}
+
+.custom-dropdown .toggle-dropdown {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 13px;
+}
+
+a.btn-second {
+  display: inline-block;
+  padding: 11.5px 56.5px;
+  background: #ff7f47;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  z-index: 20;
+  text-decoration: none;
+}
+@media(max-width:576px){
+  .custom-carousel .carousel-caption h1 {
+    font-size: 45px;
+  }
+  .find-form {
+    margin-top: 40px;
+  }
+  .find-form-wrapper input {
+    margin: 5px 0;
+  }
+  .offer-title h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+}
+@media (min-width: 575px) { 
+  .awesome-tour-box h2 {
+    font-size: 30px;
+  }
+ 
+  .offer-title h3{
+    
+    font-size: 30px;
+
+  }
+ 
+ }
+
+@media (max-width: 768px) {
+  .awesome-tour-box h2 {
+    font-size: 30px;
+  }
+  .awesome-tour-box p {
+    font-size: 16px;
+  }
+  .custom-carousel .carousel-caption h1 {
+    font-size: 50px;
+  }
+  .find-form {
+    margin-top: 40px;
+  }
+  .find-form-wrapper input {
+    margin: 5px 0;
+  }
+  .find-btn {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 992px) {
+  .custom-carousel .carousel-caption h1 {
+    font-size: 60px;
+  }
+  .find-form-wrapper input {
+    margin: 10px 0;
+  }
+  .find-btn {
+    margin: 10px 0;
+  }
+}
